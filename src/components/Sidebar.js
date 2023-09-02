@@ -204,7 +204,7 @@ export default function PersistentDrawerLeft() {
           '& .MuiDrawer-paper': {
             width: drawerWidth,
             boxSizing: 'border-box',
-            background: 'red',
+            background: '#921f93',
              
             color: 'white',
           },
