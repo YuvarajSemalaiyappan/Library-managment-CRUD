@@ -1,7 +1,7 @@
 import './Sidebar.css'
 import * as React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { styled, useTheme } from '@mui/material/styles'
+import { styled, useTheme,mixins  } from '@mui/material/styles'
 import Box from '@mui/material/Box'
 import Drawer from '@mui/material/Drawer'
 import CssBaseline from '@mui/material/CssBaseline'
@@ -204,8 +204,8 @@ export default function PersistentDrawerLeft() {
           '& .MuiDrawer-paper': {
             width: drawerWidth,
             boxSizing: 'border-box',
-            background:
-              'linear-gradient(124deg, rgba(131,58,180,1) 0%, rgba(165,50,138,1) 50%, rgba(170,49,132,1) 75%, rgba(192,44,105,1) 100%);',
+            background: 'red',
+             
             color: 'white',
           },
         }}
